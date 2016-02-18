@@ -15,9 +15,9 @@ public abstract class Ant extends Insect {
 	 * @param armor
 	 *            The armor of the ant.
 	 */
-	public Ant (int armor) {
+	public Ant (int armor, int food) {
 		super(armor, null);
-		foodCost = 0;
+		foodCost = food;
 	}
 
 	/**

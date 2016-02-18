@@ -12,16 +12,16 @@ import core.Bee;
 public class ThrowerAnt extends Ant {
 
 	protected int damage;
-
+	protected int foodCost=4;
 	/**
 	 * Creates a new Thrower Ant.
 	 * Armor: 1, Food: 0, Damage: 1
 	 */
 	public ThrowerAnt () {
-		super(1);
+		super(1,4);
 		damage = 1;
 	}
-
+	
 	/**
 	 * Returns a target for this ant
 	 *
